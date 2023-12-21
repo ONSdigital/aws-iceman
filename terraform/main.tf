@@ -9,14 +9,14 @@ terraform {
       source  = "hashicorp/archive"
       version = "~>2.4.0"
     }
-    }
-    backend "s3" {
-      bucket         = "iceman-tfstate-dev"
-      key            = "./terraform.tfstate"
-      region         = "eu-west-2"
-      dynamodb_table = "iceman-tfstate-lock-table"
-      encrypt        = true
-    }
+  }
+  backend "s3" {
+    bucket         = "iceman-tfstate-dev"
+    key            = "./terraform.tfstate"
+    region         = "eu-west-2"
+    dynamodb_table = "iceman-tfstate-lock-table"
+    encrypt        = true
+  }
 }
 
 provider "aws" {

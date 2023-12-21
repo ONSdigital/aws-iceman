@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "iceman_s3_bucket" {
-  bucket        = "iceman-lambda-functions"
+  bucket = "iceman-lambda-functions"
   tags = {
     Name        = "Iceman Lambda Functions"
     Environment = var.environment

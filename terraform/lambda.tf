@@ -24,6 +24,7 @@ resource "aws_lambda_function" "lambda" {
   for_each = local.functions
 
   function_name    = each.key
+  description      = "Lambda function for IAM Identity Center Management."
   filename         = data.archive_file.zip_lambdas[each.key].output_path
   source_code_hash = filebase64sha256(data.archive_file.zip_lambdas[each.key].output_path)
   role             = data.aws_iam_role.iceman_lambda_role.arn
