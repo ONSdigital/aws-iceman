@@ -16,7 +16,7 @@ blinker==1.6.3
 boto3==1.28.41
 botocore==1.31.41
 cachetools==5.3.1
-certifi==2023.5.7
+certifi>=2023.7.22
 cffi @ file:///private/tmp/cffi-20231015-5890-1t5aans/cffi-1.16.0
 charset-normalizer==3.1.0
 click==8.1.7
@@ -124,17 +124,17 @@ tabulate @ file:///private/tmp/python-tabulate-20231006-5778-1f1uagf/tabulate-0.
 terminado==0.17.1
 tinycss2==1.2.1
 toml @ file:///private/tmp/python-toml-20231006-5804-1a0am5i/toml-0.10.2
-tornado==6.3.2
+tornado>=6.3.3
 traitlets==5.9.0
 typing_extensions @ file:///private/tmp/python-typing-extensions-20231008-5624-g0assq/typing_extensions-4.8.0
 uri-template==1.3.0
 uritemplate==4.1.1
-urllib3==1.26.16
+urllib3>=1.26.18
 watchdog==3.0.0
 wcwidth==0.2.6
 webcolors==1.13
 webencodings==0.5.1
 websocket-client==1.6.1
-Werkzeug==3.0.0
+werkzeug>=3.0.1
 widgetsnbextension==4.0.7
 yarg==0.1.9
