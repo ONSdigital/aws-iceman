@@ -1,4 +1,4 @@
-ansible==8.4.0
+ansible==8.5.0
 ansible-core==2.15.4
 anyio==3.7.0
 appnope==0.1.3
